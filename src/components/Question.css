@@ -1,0 +1,30 @@
+.question-container {
+    margin: 1rem 0;
+  }
+  
+  .question-container h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .question-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .question-container .option {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .question-container .option:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .question-container .option.selected {
+    background-color: #007bff;
+    color: white;
+  }

@@ -1,0 +1,49 @@
+.score-page {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .results-table th, .results-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .results-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .results-table tr.correct {
+    background-color: #d4edda;
+  }
+  
+  .results-table tr.incorrect {
+    background-color: #f8d7da;
+  }
+  
+  .results-table tr.unanswered {
+    background-color: #fff3cd;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50%;
+  }
+
+  .close-button:hover {
+    background-color: #ff1a1a;
+  }
